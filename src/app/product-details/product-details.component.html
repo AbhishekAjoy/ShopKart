@@ -1,0 +1,10 @@
+<div *ngIf="product">
+  <h3>{{ product.name }}</h3>
+  <h4>Price: {{ product.price | currency }}</h4>
+  <p>{{ product.description }}</p>
+  <h4>Specifications:</h4>
+  <p><b>Display</b>:{{product.disp}}</p>
+  <p><b>Rear Camera</b>: {{product.cam}}</p>
+  <p><b>Front Camera</b>: {{product.fcam}}</p>
+  <p><b>Processor</b>: {{product.proc}}</p>
+</div>
